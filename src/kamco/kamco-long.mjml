@@ -1,8 +1,8 @@
 <mjml>
   <mj-body background-color="#BFD9EB">
     <mj-section full-width="full-width" padding="0">
-      <mj-spacer />
       <mj-column width="90%" vertical-align="middle" background-color="white">
+        <mj-spacer />
         <mj-image
           width="304px"
           align="center"
@@ -319,8 +319,8 @@
             </li>
           </ul>
         </mj-text>
+        <mj-spacer />
       </mj-column>
-      <mj-spacer />
     </mj-section>
   </mj-body>
 </mjml>
