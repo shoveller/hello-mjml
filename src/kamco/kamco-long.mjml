@@ -263,7 +263,7 @@
         </mj-text>
 
         <mj-text font-size="14px" align="left" padding-bottom="40px">
-          <ul style="list-style: '\203B'">
+          <ul style="list-style: '\203B\a0\a0\a0'">
             <li>
               납부기한이 지난 경우 공사 담당자의 안내를 받아 연체료를 가산한
               금액을 상기의 가상계좌로 납부하여 주시기 바랍니다.
