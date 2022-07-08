@@ -1,6 +1,6 @@
 <mjml>
   <mj-body background-color="#BFD9EB">
-    <mj-section full-width="full-width">
+    <mj-section full-width="full-width" padding="0">
       <mj-column width="90%" vertical-align="middle" background-color="white">
         <mj-image
           width="304px"
@@ -10,111 +10,312 @@
         <mj-text color="#006CBB" align="center" font-size="24px">
           국유재산 대부료 납부안내
         </mj-text>
-        <mj-wrapper>
-          <mj-section
-            border-bottom="1px solid #E8E8E8"
-            padding="0"
-            padding-bottom="4px"
+        <mj-text color="#090909" font-size="20px" align="center">
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span style="display: inline-block; width: 48%; text-align: left"
+              >고객명 :
+            </span>
+            <span style="display: inline-block; width: 48%; text-align: right"
+              >홍길동 님
+            </span>
+          </div>
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span style="display: inline-block; width: 48%; text-align: left"
+              >고객번호 :
+            </span>
+            <span style="display: inline-block; width: 48%; text-align: right"
+              >0105894
+            </span>
+          </div>
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span style="display: inline-block; width: 48%; text-align: left"
+              >지로번호 :
+            </span>
+            <span style="display: inline-block; width: 48%; text-align: right"
+              >6418502
+            </span>
+          </div>
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span style="display: inline-block; width: 48%; text-align: left"
+              >통합대부료 :
+            </span>
+            <span style="display: inline-block; width: 48%; text-align: right"
+              >해당 없음
+            </span>
+          </div>
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span style="display: inline-block; width: 48%; text-align: left"
+              >납입기한 :
+            </span>
+            <b style="display: inline-block; width: 48%; text-align: right"
+              >2022. 04. 15
+            </b>
+          </div>
+        </mj-text>
+
+        <mj-text color="#090909" align="center" font-size="20px" padding="0">
+          <p>고객님께서 납부하실 금액은</p>
+          <b style="font-size: 30px">159,780</b>
+          <b style="font-size: 20px">원</b>
+          <span>입니다.</span>
+          <p style="font-size: 16px">(부가세 125,900원 포함)</p>
+        </mj-text>
+
+        <mj-button
+          background-color="#3068B9"
+          border-radius="5px"
+          padding="30px 30px 10px 30px"
+          font-size="20px"
+        >
+          <a
+            href="#"
+            style="
+              display: inline-block;
+              padding: 10px 100px;
+              text-decoration: none;
+              color: white;
+            "
           >
-            <mj-column>
-              <mj-text color="#090909" align="left" font-size="20px">
-                고객명 :
-              </mj-text>
-            </mj-column>
-            <mj-column>
-              <mj-text color="#090909" align="right" font-size="20px">
-                홍길동 님
-              </mj-text>
-            </mj-column>
-          </mj-section>
-          <mj-section
-            border-bottom="1px solid #E8E8E8"
-            padding="0"
-            padding-bottom="4px"
+            바로 납부하기
+          </a>
+        </mj-button>
+
+        <mj-text color="#3068B9" font-size="14px" padding="0" align="center">
+          기한 내 납부유예 신청 시 3개월 연장(대기업 제외)
+        </mj-text>
+
+        <mj-text
+          color="#090909"
+          font-size="24px"
+          align="center"
+          padding="40px 0"
+        >
+          관련 국유재산 내역
+        </mj-text>
+
+        <mj-text
+          color="#090909"
+          font-size="16px"
+          align="center"
+          padding-bottom="40px"
+        >
+          <span
+            style="
+              display: inline-block;
+              margin: 0 auto;
+              border: 1px solid #e8e8e8;
+              border-radius: 2px;
+              text-align: left;
+              padding: 16px 24px;
+            "
           >
-            <mj-column>
-              <mj-text color="#090909" align="left" font-size="20px">
-                고객번호 :
-              </mj-text>
-            </mj-column>
-            <mj-column>
-              <mj-text color="#090909" align="right" font-size="20px">
-                0105894
-              </mj-text>
-            </mj-column>
-          </mj-section>
-          <mj-section
-            border-bottom="1px solid #E8E8E8"
-            padding="0"
-            padding-bottom="4px"
+            <p>서울특별시 양천구 신월동 982-3</p>
+            <p>[신월로 113] 등 총 3건</p>
+          </span>
+        </mj-text>
+
+        <mj-text
+          color="#090909"
+          font-size="16px"
+          align="center"
+          padding-bottom="40px"
+        >
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span style="display: inline-block; width: 48%; text-align: left">
+              지목 :
+            </span>
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: right;
+                word-break: break-all;
+                word-wrap: break-word;
+              "
+            >
+              <span style="display: inline-block">건물</span>
+              <span style="display: inline-block">(판매용-근린생활시설)</span>
+            </span>
+          </div>
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: left;
+              "
+            >
+              대장면적 :
+            </span>
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: right;
+                word-break: break-all;
+                word-wrap: break-word;
+              "
+            >
+              1,374.6㎡
+            </span>
+          </div>
+
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: left;
+              "
+            >
+              점유면적 :
+            </span>
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: right;
+                word-break: break-all;
+                word-wrap: break-word;
+              "
+            >
+              217.8㎡
+            </span>
+          </div>
+
+          <div style="border-bottom: 1px solid #e8e8e8; padding: 8px 0">
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: left;
+              "
+            >
+              비고 :
+            </span>
+            <span
+              style="
+                display: inline-block;
+                width: 48%;
+                line-height: 22px;
+                text-align: right;
+                word-break: break-all;
+                word-wrap: break-word;
+              "
+            >
+              <span style="display: inline-block">21.12.17</span>
+              -
+              <span style="display: inline-block">22.12.16</span>
+            </span>
+          </div>
+        </mj-text>
+
+        <mj-text
+          color="#006CBB"
+          align="center"
+          font-size="24px"
+          padding-bottom="40px"
+        >
+          무통장입금 가상계좌번호
+        </mj-text>
+
+        <mj-text
+          color="#090909"
+          font-size="16px"
+          align="center"
+          padding-bottom="20px"
+        >
+          <span
+            style="
+              display: inline-block;
+              margin: 0 auto;
+              border: 1px solid #e8e8e8;
+              border-radius: 2px;
+              text-align: left;
+              padding: 16px 24px;
+            "
           >
-            <mj-column>
-              <mj-text color="#090909" align="left" font-size="20px">
-                지로번호 :
-              </mj-text>
-            </mj-column>
-            <mj-column>
-              <mj-text color="#090909" align="right" font-size="20px">
-                6418502
-              </mj-text>
-            </mj-column>
-          </mj-section>
-          <mj-section
-            border-bottom="1px solid #E8E8E8"
-            padding="0"
-            padding-bottom="4px"
-          >
-            <mj-column>
-              <mj-text color="#090909" align="left" font-size="20px">
-                통합대부료 :
-              </mj-text>
-            </mj-column>
-            <mj-column>
-              <mj-text color="#090909" align="right" font-size="20px">
-                해당없음
-              </mj-text>
-            </mj-column>
-          </mj-section>
-          <mj-section
-            border-bottom="1px solid #E8E8E8"
-            padding="0"
-            padding-bottom="4px"
-          >
-            <mj-column>
-              <mj-text color="#090909" align="left" font-size="20px">
-                납입기한 :
-              </mj-text>
-            </mj-column>
-            <mj-column>
-              <mj-text
-                color="#090909"
-                align="right"
-                font-size="20px"
-                font-weight="bold"
-              >
-                2022. 04. 15
-              </mj-text>
-            </mj-column>
-          </mj-section>
-        </mj-wrapper>
-        <mj-wrapper>
-          <mj-section text-align="center">
-            <mj-column vertical-align="bottom">
-              <mj-text
-                color="#090909"
-                align="center"
-                font-size="20px"
-                padding="0"
-              >
-                <p>고객님께서 납부하실 금액은</p>
-                <b style="font-size: 30px">159,780</b>
-                <b style="font-size: 20px">원</b>
-                <span>입니다.</span>
-                <p style="font-size: 16px">(부가세 125,900원 포함)</p>
-              </mj-text>
-            </mj-column>
-          </mj-section>
-        </mj-wrapper>
+            <p>
+              <span style="display: inline-block; padding-right: 16px"
+                >국민은행
+              </span>
+              <span style="display: inline-block">760790-13-024396</span>
+            </p>
+            <p>
+              <span style="display: inline-block; padding-right: 16px"
+                >농협은행
+              </span>
+              <span style="display: inline-block">790-1062-7561-861</span>
+            </p>
+            <p>
+              <span style="display: inline-block; padding-right: 16px"
+                >입금계좌 예금주 :
+              </span>
+              <span style="display: inline-block">캠코국유(김옥자)</span>
+            </p>
+          </span>
+        </mj-text>
+
+        <mj-text font-size="14px" align="left" padding-bottom="40px">
+          <ul style="list-style: '\203B'">
+            <li>
+              납부기한이 지난 경우 공사 담당자의 안내를 받아 연체료를 가산한
+              금액을 상기의 가상계좌로 납부하여 주시기 바랍니다.
+            </li>
+          </ul>
+        </mj-text>
+
+        <mj-text
+          color="#006CBB"
+          align="center"
+          font-size="24px"
+          padding-bottom="40px"
+        >
+          납부 안내사항
+        </mj-text>
+
+        <mj-text font-size="14px" align="left" padding-bottom="40px">
+          <ul>
+            <li style="margin-bottom: 16px;">
+              <b>납부방법 :</b>
+              <span
+                >우리 공사는 어떤 경우도 매각대금 등을 직접 수납하지 않으니
+                안내해드린 계좌에 본인명의로 입금하시거나 지로를 통해 납부하시기
+                바랍니다.
+              </span>
+            </li>
+            <li style="margin-bottom: 16px;">
+              <b>입금계좌 :</b>
+              <span
+                >사용이 편리한 금융기관을 통해 고객님에게만 제공되는 전용
+                ‘가상계좌’에 입금하시기 바랍니다. [예금주명에 ‘캠코국유’가
+                고객님의 이름과 함께 기재됩니다.]
+              </span>
+            </li>
+            <li style="margin-bottom: 16px;">
+              <b>연체이자 :</b>
+              <span
+                >기한내 미납부 시 연체기간에 따라 연 7~10% 연체이자가
+                부과됩니다. 또한 계약해지, 입찰·수의계약 제한, 압류 등의
+                불이익이 발생할 수 있으니 유념하시기 바랍니다.
+              </span>
+            </li>
+            <li style="margin-bottom: 16px;">
+              <b>통합대부료 :</b>
+              <span
+                >대부료가 20만원 이하인 경우 대부기간 중 대부료를 통합 납부하실
+                수 있으며, 대부기간 중 대부료가 증가되거나 감소되더라도 추가
+                징수 또는 반환하지 않습니다.
+              </span>
+            </li>
+          </ul>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
