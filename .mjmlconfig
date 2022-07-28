@@ -1,9 +1,0 @@
-{
-  "packages": [
-    "mjml-chart/lib/index.js"
-  ],
-  "options": {
-    "fonts": {},
-    "keepComments": false
-  }
-}
