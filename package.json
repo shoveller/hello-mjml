@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mjml src/*.mjml -o ./dist"
+    "build": "mjml src/*.mjml -o ./dist",
+    "publish": "gh-pages -d dist -b gh-pages"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/prettier": "^2.6.3",
+    "gh-pages": "^6.1.1",
     "mjml": "^4.12.0",
     "mjml-chart": "^6.0.75",
     "mjml-qr-code": "^2.0.0",
